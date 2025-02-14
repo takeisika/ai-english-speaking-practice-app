@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "MyAudioApp",
+    "slug": "MyAudioApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "このアプリは音声録音機能を利用して音声を解析します。"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.anonymous.MyAudioApp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  },
+  "main": "App.js"
+}
